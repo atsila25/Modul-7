@@ -1,0 +1,13 @@
+public class Nam {
+    static void ms(){
+        System.out.println("Method static dapat digunakan tanpa harus membuat object");
+    }
+    public void mp(){
+        System.out.println("Method public harus dipanggil dengan membuat object");
+    }
+    public static void main(String[] args) {
+        ms();
+        Nam ojk = new Nam();
+        ojk.mp();
+    }
+}
