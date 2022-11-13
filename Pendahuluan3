@@ -1,0 +1,14 @@
+import java.io.*;
+public class No3 {
+    public static void main(String[] args) {
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        try{
+        System.out.print("Angka yang ingin dimasukkan : ");
+        int angka=Integer.parseInt(input.readLine());
+        }catch (Exception e){
+            System.out.println("Inputan bukan angka!");
+        }finally{
+            System.out.println("Selesai!");
+        }
+    }  
+}
