@@ -1,0 +1,27 @@
+public class No5 {
+    static void print(){
+        System.out.println("Volume Prisma Segitiga :");
+    }
+    static String rumus(){
+        String jv = "Luas alas (a*t)/2) x tinggi";
+        System.out.println(jv);
+        return jv;
+    }
+    static int luasalas(){
+        int a=5;
+        int t=10;
+        int luassegitiga= (a*t)/2;
+        return luassegitiga;
+}
+    static double volumeprismasegitiga(double tinggi){//method dengan parameter
+        double volume = luasalas()*tinggi;
+        return volume ;
+    }
+    public static void main(String[] args) {
+        System.out.println("Menghitung Volume Prisma Segitiga");
+        rumus();
+        System.out.println(luasalas()+" x 20");
+        print();
+        System.out.println(volumeprismasegitiga(20));
+    }
+}
