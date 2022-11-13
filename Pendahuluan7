@@ -1,0 +1,14 @@
+public class No7 {
+    public String firstname = "Viktor";
+    public String backname = "Axelsen";
+    public String email = "viktoraxelsen@gmail.com";
+    public int age = 28;
+}
+class no7b{
+    public static void main(String[] args) {
+        No7 cetak = new No7();
+        System.out.println("Name : "+cetak.firstname+" "+cetak.backname);
+        System.out.println("Email  : "+cetak.email);
+        System.out.println("Umur : "+cetak.age);
+    }
+}
